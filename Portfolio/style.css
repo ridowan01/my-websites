@@ -1,0 +1,13 @@
+body {
+    background-color: #262626;
+    color: whitesmoke;
+    padding-top: 70px;
+}
+.blueTitle {
+    color: cornflowerblue;
+    font-size: 50px;
+}
+.card-bg {
+    background-color: #004D61;
+    color: whitesmoke;
+}

@@ -18,11 +18,11 @@
         <nav class="container-fluid fixed-top">
             <div class="row">
                 <!--Logo-->
-                <div class="col-lg-6 col-2 d-flex justify-content-center">
+                <div class="col-lg-6 col-sm-2 d-none d-sm-block d-flex justify-content-center">
                     <img src="./images/logo.png" class="img-fluid" alt="logo image" width="100px">
                 </div>
                 <!--Nav buttons-->
-                <div class="col-lg-6 col-10 d-flex justify-content-center">
+                <div class="col-lg-6 col-sm-10 d-flex justify-content-center">
                     <ul class="nav nav-underline justify-content-end p-3 align-items-center">
                         <li class="nav-item">
                             <a class="nav-link active text-white" aria-current="page" href="#">Home</a>
@@ -37,8 +37,8 @@
                             <a class="nav-link text-white" href="#contact-section"">Contact Me</a>
                         </li>
                         <li>
-                            <a href="./files/Resumes.pdf" download class="btn btn-primary">
-                                Resume <i class="fa-solid fa-download"></i>
+                            <a href="./files/Resumes.pdf" download class="btn btn-primary d-flex align-items-center">
+                                <span class="d-none d-sm-block">Resume</span><i class="fa-solid fa-download"></i>
                             </a>
                         </li>
                     </ul>
@@ -85,7 +85,7 @@
                 </div>
                 <div class="col-md-5 d-flex justify-content-center">
                     <div class="card" style="width: 18rem;">
-                        <img src="./images/pic.jpeg" class="img-fluid card-img-top" alt="profile image" width="400px">
+                        <img src="./images/pic.jpeg" class="img-fluid card-img-top rounded" alt="profile image" width="400px">
                     </div>
                 </div>
             </div>
@@ -151,13 +151,13 @@
                             <!--Matarials-->
                             <div class="d-flex justify-content-evenly">
                                 <div class="btn-group me-2" role="group" aria-label="First group">
-                                    <button type="button" class="btn btn-primary">Java</button>
+                                    <button type="button" class="btn btn-primary btn-sm">Java</button>
                                 </div>
                                 <div class="btn-group me-2" role="group" aria-label="First group">
-                                    <button type="button" class="btn btn-primary">Java-Swing</button>
+                                    <button type="button" class="btn btn-primary btn-sm">Java-Swing</button>
                                 </div>
                                 <div class="btn-group me-2" role="group" aria-label="First group">
-                                    <button type="button" class="btn btn-primary">Java-AWT</button>
+                                    <button type="button" class="btn btn-primary btn-sm">Java-AWT</button>
                                 </div>
                             </div>
                         </div>
@@ -216,16 +216,16 @@
                             <!--Matarials-->
                             <div class="d-flex justify-content-evenly">
                                 <div class="btn-group me-2" role="group" aria-label="First group">
-                                    <button type="button" class="btn btn-primary">Arduino</button>
+                                    <button type="button" class="btn btn-primary btn-sm">Arduino</button>
                                 </div>
                                 <div class="btn-group me-2" role="group" aria-label="First group">
-                                    <button type="button" class="btn btn-primary">HTML</button>
+                                    <button type="button" class="btn btn-primary btn-sm">HTML</button>
                                 </div>
                                 <div class="btn-group me-2" role="group" aria-label="First group">
-                                    <button type="button" class="btn btn-primary">CSS</button>
+                                    <button type="button" class="btn btn-primary btn-sm">CSS</button>
                                 </div>
                                 <div class="btn-group me-2" role="group" aria-label="First group">
-                                    <button type="button" class="btn btn-primary">JavaScript</button>
+                                    <button type="button" class="btn btn-primary btn-sm">JavaScript</button>
                                 </div>
                             </div>
                         </div>
@@ -237,8 +237,16 @@
         <!--Skills & Education-->
         <div class="container-fluid" id="skill-section">
             <div class="row m-1 py-5 d-flex justify-content-around align-items-center">
-                <!--Left Skill-->
-                <div class="col-lg-4 col-12">
+                <!--Education-->
+                <div class="col-lg-4 col-12 text-center text-white">
+                    <h1 class="blueTitle">My Education</h1>
+                    <p>B.Sc in Computer Science & Engineering</p>
+                    <p>Rajshahi University Engineering and Technology</p>
+                    <p>Talaimari, Rajshahi, Bangladesh</p>
+                </div>
+
+                <!--Skill-->
+                <div class="col-lg-4 col-12 my-2">
                     <div class="d-flex flex-column align-items-center">
                         <!--Part 1-->
                         <div class="card card-bg" style="width: 18rem;">
@@ -290,16 +298,8 @@
                     </div>
                 </div>
 
-                <!--Education-->
-                <div class="col-lg-4 col-12 text-center text-white">
-                    <h1 class="blueTitle">My Education</h1>
-                    <p>B.Sc in Computer Science & Engineering</p>
-                    <p>Rajshahi University Engineering and Technology</p>
-                    <p>Talaimari, Rajshahi, Bangladesh</p>
-                </div>
-
-                <!--Right Skill-->
-                <div class="col-lg-4 col-12">
+                <!--Skill-->
+                <div class="col-lg-4 col-12 my-lg-2">
                     <div class="d-flex flex-column align-items-center">
                         <!--Part 1-->
                         <div class="card card-bg" style="width: 18rem;">

@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Practise Day 2</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet">
+</head>
+
+<body>
+    <!-- details div -->
+    <div id="details-show" class="container d-flex justify-content-center"></div>
+
+    <!-- input section -->
+    <div class="container text-center search-bar">
+        <div class="row">
+            <div class="col-2"><br></div>
+            <div class="col-8">
+                <div class="input-group mb-3">
+                    <input id="take-input" type="text" class="form-control" placeholder="Search here..."
+                        aria-label="Recipient’s username" aria-describedby="button-addon2">
+                    <button class="btn btn btn-primary" type="button" id="button-addon2"
+                        onclick="search()">Button</button>
+                </div>
+            </div>
+            <div class="col-2"><br></div>
+        </div>
+    </div>
+
+    <!-- items showing section -->
+    <div id="show-item" class="container d-flex flex-wrap gap-5 justify-content-evenly"></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
